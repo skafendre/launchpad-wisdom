@@ -1,8 +1,15 @@
+// todo convert hand and inversion to enum
 interface inversion {
+    hand: string
+    inversion: string
     fingering: number[]
 }
 
-export interface MappedChord {
+interface position {
+    name: number
     inversions: inversion[]
-    tonalName: string
+}
+
+export interface MappedChord {
+    positions: position[]
 }
