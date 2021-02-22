@@ -16,29 +16,39 @@ export default {
         }
     },
     async mounted() {
-        this.chordsList = ChordType.all()
-        console.log(ChordType.get('major'))
-
-        const mappedChords = await this.$content('chords').fetch()
-        console.log('articles', mappedChords)
-
         // fuse mappedChordsData with the tonal chords list
-        this.getChords()
+        this.chordsList = await this.getValidChords()
     },
     methods: {
-        async getChords() {
+        /**
+         * Get mapped chords with tonal chord information
+         * @returns {Promise<[]>}
+         */
+        async getValidChords() {
             const availableChords = []
+            const unrecognizedChords = []
             const mappedChords = await this.$content('chords').fetch()
             console.log('articles', mappedChords)
 
-            for (const chord in mappedChords) {
-                if (ChordType.get(chord.slug)) {
+            for (const chord of mappedChords) {
+                const tonalChord = ChordType.get(chord.slug)
+                if (tonalChord.empty !== true) {
                     console.log(`Chord ${chord.slug} recognized by tonaljs !`)
+                    tonalChord.inversions = chord.inversions
+                    availableChords.push(tonalChord)
                 } else {
                     console.error(
                         `Chord ${chord.slug} was NOT recognized by tonaljs `,
                     )
+                    unrecognizedChords.push(chord)
                 }
+            }
+
+            if (unrecognizedChords.length >= 1) {
+                console.error(
+                    `${unrecognizedChords.length} unreconized mapped chords.`,
+                    unrecognizedChords,
+                )
             }
 
             return availableChords
