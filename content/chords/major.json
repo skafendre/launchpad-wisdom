@@ -3,29 +3,29 @@
     "position": [1],
     "leftHandInversion": [
       {
-        "fingering": [],
+        "fingering": [5, 4, 1],
         "inversion": "root"
       },
       {
-        "fingering": [],
+        "fingering": [5, 1, 4],
         "inversion": "first"
       },
       {
-        "fingering": [],
+        "fingering": [1, 5, 4],
         "inversion": "second"
       }
     ],
     "rightHandInversion": [
       {
-        "fingering": [],
+        "fingering": [1, 2, 5],
         "inversion": "root"
       },
       {
-        "fingering": [],
+        "fingering": [1, 5, 2],
         "inversion": "first"
       },
       {
-        "fingering": [],
+        "fingering": [5, 2, 3],
         "inversion": "second"
       }
     ]

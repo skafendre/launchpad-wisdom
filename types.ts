@@ -1,7 +1,7 @@
 // todo convert hand and inversion to enum
 interface inversion {
     inversion: string
-    fingering: number[]
+    fingering: number[][]
 }
 
 interface position {
