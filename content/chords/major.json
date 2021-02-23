@@ -1,34 +1,64 @@
-{
-    "inversions": [
+[
+  {
+    "position": [1],
+    "leftHandInversion": [
       {
         "fingering": [],
-        "hand": "left",
         "inversion": "root"
       },
       {
         "fingering": [],
-        "hand": "left",
         "inversion": "first"
       },
       {
         "fingering": [],
-        "hand": "left",
         "inversion": "second"
-      },
+      }
+    ],
+    "rightHandInversion": [
       {
         "fingering": [],
-        "hand": "right",
         "inversion": "root"
       },
       {
         "fingering": [],
-        "hand": "right",
         "inversion": "first"
       },
       {
         "fingering": [],
-        "hand": "right",
         "inversion": "second"
       }
     ]
-}
+  },
+  {
+    "position": [2, 3, 4],
+    "leftHandInversions": [
+      {
+        "fingering": [],
+        "inversion": "root"
+      },
+      {
+        "fingering": [],
+        "inversion": "first"
+      },
+      {
+        "fingering": [],
+        "inversion": "second"
+      }
+    ],
+    "rightHandInversions": [
+      {
+        "fingering": [],
+        "inversion": "root"
+      },
+      {
+        "fingering": [],
+        "inversion": "first"
+      },
+      {
+        "fingering": [],
+        "inversion": "second"
+      }
+    ]
+  }
+]
