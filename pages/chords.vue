@@ -1,6 +1,17 @@
 <template>
     <section class="section">
-        <div class="columns is-mobile">okok</div>
+        <!--        <b-field label="Simple">-->
+        <!--            <b-select placeholder="Select a name">-->
+        <!--                <option-->
+        <!--                  v-for="chord in chordsList"-->
+        <!--                  :value="chord.slug"-->
+        <!--                  :key="chord.slug">-->
+        <!--                  {{ chord.slug }}-->
+        <!--                </option>-->
+        <!--            </b-select>-->
+        <!--        </b-field>-->
+
+        <!--        <div class="columns is-mobile">okok</div>-->
     </section>
 </template>
 
