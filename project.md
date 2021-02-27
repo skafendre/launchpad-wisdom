@@ -7,7 +7,7 @@ MVP
 Chord component
 ------
 A chord has:
-- position
+- position (groupe de root notes)
 - inversion
 - hand
 
@@ -17,3 +17,4 @@ Use case:
 
 Feature:
 - surbrillance des notes composées en une couleur spécifique on hover
+- 
