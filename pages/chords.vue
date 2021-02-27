@@ -6,7 +6,7 @@
         <!--                  v-for="chord in chordsList"-->
         <!--                  :value="chord.slug"-->
         <!--                  :key="chord.slug">-->
-        <!--                  {{ chord.slug }}-->
+        <!--                 {{ chord.slug }}-->
         <!--                </option>-->
         <!--            </b-select>-->
         <!--        </b-field>-->
@@ -20,7 +20,6 @@ import { ChordType } from '@tonaljs/tonal'
 
 export default {
     name: 'Chords',
-
     data() {
         return {
             chordsList: [],
