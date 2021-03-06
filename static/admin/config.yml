@@ -1,0 +1,20 @@
+backend:
+  name: github
+  branch: master
+  repo: skafendre/launchpad-wisdom
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'chord'
+    label: 'Chord'
+    folder: 'content/chords'
+    format: 'json'
+    create: true
+    slug: '{{name}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }

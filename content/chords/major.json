@@ -1,64 +1,76 @@
 [
   {
     "position": [1],
-    "leftHandInversion": [
-      {
-        "fingering": [5, 4, 1],
-        "inversion": "root"
-      },
-      {
-        "fingering": [5, 1, 4],
-        "inversion": "first"
-      },
-      {
-        "fingering": [1, 5, 4],
-        "inversion": "second"
-      }
-    ],
-    "rightHandInversion": [
-      {
-        "fingering": [1, 2, 5],
-        "inversion": "root"
-      },
-      {
-        "fingering": [1, 5, 2],
-        "inversion": "first"
-      },
-      {
-        "fingering": [5, 2, 3],
-        "inversion": "second"
-      }
-    ]
+    "inversion": "root",
+    "hand": "left",
+    "fingering": [5, 4, 1]
+  },
+  {
+    "position": [1],
+    "inversion": "first",
+    "hand": "left",
+    "fingering": [5, 1, 4]
+
+  },
+  {
+    "position": [1],
+    "inversion": "second",
+    "hand": "left",
+    "fingering": [1, 5, 4]
+  },
+  {
+    "position": [1],
+    "fingering": [1, 2, 5],
+    "hand": "right",
+    "inversion": "root"
+  },
+  {
+    "position": [1],
+    "fingering": [1, 5, 2],
+    "inversion": "first",
+    "hand": "right"
+  },
+  {
+    "position": [1],
+    "hand": "right",
+    "inversion": "second",
+    "fingering": [5, 2, 3]
   },
   {
     "position": [2, 3, 4],
-    "leftHandInversions": [
-      {
-        "fingering": [],
-        "inversion": "root"
-      },
-      {
-        "fingering": [],
-        "inversion": "first"
-      },
-      {
-        "fingering": [],
-        "inversion": "second"
-      }
-    ],
-    "rightHandInversions": [
-      {
-        "fingering": [],
-        "inversion": "root"
-      },
-      {
-        "fingering": [],
-        "inversion": "first"
-      },
-      {
-        "fingering": [],
-        "inversion": "second"
-      }
-    ]
+    "inversion": "root",
+    "hand": "left",
+    "fingering": []
+  },
+  {
+    "position": [2, 3, 4],
+    "inversion": "first",
+    "hand": "left",
+    "fingering": []
+
+  },
+  {
+    "position": [2, 3, 4],
+    "inversion": "second",
+    "hand": "left",
+    "fingering": []
+  },
+  {
+    "position": [2, 3, 4],
+    "fingering": [],
+    "hand": "right",
+    "inversion": "root"
+  },
+  {
+    "position": [2, 3, 4],
+    "fingering": [],
+    "inversion": "first",
+    "hand": "right"
+  },
+  {
+    "position": [2, 3, 4],
+    "hand": "right",
+    "inversion": "second",
+    "fingering": []
   }
 ]

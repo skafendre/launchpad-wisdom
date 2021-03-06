@@ -1,9 +1,6 @@
 MVP
 ------
 
-
-
-
 Chord component
 ------
 A chord has:
@@ -16,5 +13,5 @@ Use case:
 2. Select position, inversion, hand
 
 Feature:
-- surbrillance des notes composées en une couleur spécifique on hover
-- 
+- surbrillance des notes/accords composées en une couleur spécifique on hover
+
